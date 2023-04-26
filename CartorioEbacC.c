@@ -130,6 +130,7 @@ int main()   //tela inicial do projeto
 		printf("\t1 - Registrar nomes\n"); 	//menu de opções
 		printf("\t2 - Consultar nomes\n");
 		printf("\t3 - Deletar nomes\n\n");
+		printf("\t4 - Sair do sistema\n\n");
 		printf("opção..."); 				//fim do menu
 	
 	
@@ -151,6 +152,11 @@ int main()   //tela inicial do projeto
 			case 3:
 			deletar();
 			break;
+			
+			case 4:
+				printf("obrigado por utilizar o sistema!\n");
+				return 0;
+				break;
 			
 			default:
 			printf("essa opção nao está disponivel\n\n\n\n");
